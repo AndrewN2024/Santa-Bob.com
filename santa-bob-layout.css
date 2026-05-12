@@ -1,0 +1,111 @@
+/* Santa Bob Legacy XSP Layout Restoration */
+
+/* Main container wrapper */
+.XSP_OUTLINE {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Left panel - sidebar/navigation column */
+.XSP_LEFT_PANEL {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Main/center panel - primary content column */
+.XSP_MAIN_PANEL {
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Right panel - auxiliary/secondary content column */
+.XSP_RIGHT_PANEL {
+  width: 280px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Footer panel */
+.XSP_FOOTER_PANEL {
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+/* Table layout fixes for legacy compatibility */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+/* Center-aligned text and divs */
+div[align="center"],
+p[align="center"] {
+  text-align: center;
+}
+
+/* Font styling defaults */
+body {
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 12pt;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+p {
+  margin: 8pt 0;
+}
+
+/* Link styling */
+a {
+  text-decoration: underline;
+}
+
+a[style*="COLOR: #008000"],
+a[style*="color: #008000"] {
+  color: #008000;
+}
+
+/* Image responsive handling */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Preserve inline style behavior */
+span[style*="FONT-SIZE"],
+font[size] {
+  line-height: 1.4;
+}
+
+/* Table cell borders (restore if needed) */
+table[border="0"] {
+  border: 0 none;
+}
+
+table[cellspacing="2"] {
+  border-spacing: 2px;
+}
+
+table[cellspacing="1"] {
+  border-spacing: 1px;
+}
